@@ -130,6 +130,7 @@ body{
 }
 .icon a{
     text-decoration: none;
+    color: white;
 /*     background: white; */
     font-size: 20px;
     margin-right: 15px;
