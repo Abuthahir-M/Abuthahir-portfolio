@@ -129,6 +129,7 @@ body{
     padding-top: 5%;
 }
 .icon a{
+    font-family: Calibri;
     text-decoration: none;
     color: white;
 /*     background: white; */
