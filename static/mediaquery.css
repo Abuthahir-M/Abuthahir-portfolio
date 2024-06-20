@@ -1,0 +1,231 @@
+
+@media screen and (max-width:1024px){
+    .box-container{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        height: 140px;
+    }
+    .box img{
+        width: 140px;
+        height: 140px;
+    }
+    .contact-left,
+    .contact-right{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+    .header {
+        background: #00246B;
+    }
+    #home{
+        background: #00246B;
+    }
+    .header .bx-menu{
+        display: block;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #8AB6F9;
+        display: none;
+        overflow: hidden; /* Hide overflow */
+        height: 0; /* Initially collapse the navbar */
+        transition: height 0.3s ease; /* Add transition for smooth animation */
+    }
+    .header #toggler:checked ~ .navbar{
+        display: block; /* Show the navbar when toggled */
+        height: auto; /* Expand the navbar to its natural height */
+    }
+    
+    .header .navbar a{
+        margin: 10px;
+        padding: 10px;
+        background: #8AB6F9;
+        /* border: 2px solid #00246B; */
+        border-radius: 10px;
+        text-align: center;
+        display: block;
+    }
+    .about-content,
+    .about-content p{
+        width: 100%;
+        line-height: 1.8;
+        padding: 0 10px;
+        font-size: 22px;
+    }
+    .box-container{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        height: 110px;
+    }
+    .box img{
+        width: 110px;
+        height: 110px;
+    }
+    .project-content{
+        width: 95%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        justify-content: center;
+    }
+    .thumbnail{
+        width: 200px;
+    }
+    .contact-head,
+    .mail,
+    .phone{
+        margin-bottom: 15px;
+    }
+    .message{
+        margin-top: 15px;
+    }
+    .row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-left,
+    .contact-right{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+
+@media screen and (max-width:470px){
+    .header{
+        background:#00246B;
+        height: 65px;
+    }
+    .logo a{
+        font-size: 20px;
+        font-family: Trebuchet MS;
+        font-weight: 700;
+    }
+    #home{
+        background: #00246B;
+        width: 100%;
+        height: 100vh;
+        padding-left: 8%;
+    }
+    #about,
+    #skills{
+        width: 100%;
+        height: 100vh;
+    }
+    .left_container h1{
+        font-size: 25px;
+    }
+    .left_container h2{
+        font-size: 35px;
+    }
+    .left_container h3{
+        font-size: 30px;
+    }
+    .left_container p{
+        font-size: 15px;
+    }
+    .download-btn{
+        font-size: 14px;
+        width: 130px;
+        height: 30px;
+    }
+    .icon a{
+        font-size: 22px;
+        margin-right: 10px;
+        border-radius: 20px;
+    }
+    .about-head h1,
+    .skills-head h1,
+    .project-head h1,
+    .contact-head h1{
+        font-size: 25px;
+    }
+    .about-content,
+    .about-head{
+        width: 100%;
+    }
+    .about-content p{
+        padding: 0 2%;
+        font-size: 18px;
+        text-align:justify;
+    }
+    #project,
+    #contact{
+        width: 100%;
+    }
+    .box-container{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 15px;
+    }
+    .box{
+        height: 80px;
+    }
+    .box img{
+        width: 80px;
+        height: 80px;
+    }
+    .project-content{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+    .thumbnail{
+        width: 50%;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .title{
+        font-size: 18px;
+    }
+    .live-button{
+        width: 50px;
+        height: 21px;
+        font-size: 15px;
+    }
+    .row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mail,
+    .phone,
+    .message{
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .contact-left,
+    .contact-right{
+        width: 100%;
+        text-align: center;
+    }
+}
